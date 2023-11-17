@@ -1,0 +1,66 @@
+/* Style de base pour la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Style pour le titre h1 */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Style pour le formulaire */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour les libellés */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #666;
+}
+
+/* Style pour les champs de saisie */
+form input[type="text"],
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style pour les messages d'erreur */
+.erreur {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* Style pour le bouton */
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Style pour le bouton au survol */
+form button:hover {
+    background-color: #2980b9;
+}
